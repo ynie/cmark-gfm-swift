@@ -71,6 +71,10 @@ public class Node: CustomStringConvertible {
         if let ext = cmark_find_syntax_extension("checkbox") {
             cmark_parser_attach_syntax_extension(parser, ext)
         }
+        
+        if let ext = cmark_find_syntax_extension("hashtag") {
+            cmark_parser_attach_syntax_extension(parser, ext)
+        }
 
         cmark_parser_feed(parser, markdown, markdown.utf8.count)
         guard let node = cmark_parser_finish(parser) else { return nil }
@@ -178,7 +182,8 @@ public class Node: CustomStringConvertible {
 
     /// Renders the HTML representation
     public var html: String {
-        return String(cString: cmark_render_html(node, 0, nil))
+        let options = CMARK_OPT_HARDBREAKS
+        return String(cString: cmark_render_html(node, options, nil))
     }
     
     /// Renders the XML representation

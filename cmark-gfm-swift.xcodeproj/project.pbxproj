@@ -7,19 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29C286EB207087CF002C19F7 /* ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286D6207087CF002C19F7 /* ListElement.swift */; };
-		29C286EC207087CF002C19F7 /* TextElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286D7207087CF002C19F7 /* TextElement.swift */; };
-		29C286ED207087CF002C19F7 /* Block+TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286D8207087CF002C19F7 /* Block+TableRow.swift */; };
-		29C286EE207087CF002C19F7 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286D9207087CF002C19F7 /* TableRow.swift */; };
-		29C286EF207087CF002C19F7 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286DA207087CF002C19F7 /* Element.swift */; };
-		29C286F0207087CF002C19F7 /* ASTOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286DB207087CF002C19F7 /* ASTOperations.swift */; };
-		29C286F7207087CF002C19F7 /* Node+Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286E4207087CF002C19F7 /* Node+Elements.swift */; };
 		29C286F8207087CF002C19F7 /* cmark-gfm-swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C286E5207087CF002C19F7 /* cmark-gfm-swift.h */; };
-		29C286F9207087CF002C19F7 /* Inline+TextElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286E6207087CF002C19F7 /* Inline+TextElement.swift */; };
-		29C286FA207087CF002C19F7 /* Block+ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286E7207087CF002C19F7 /* Block+ListElement.swift */; };
-		29C286FB207087CF002C19F7 /* Block+TextElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286E8207087CF002C19F7 /* Block+TextElement.swift */; };
-		29C286FC207087CF002C19F7 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286E9207087CF002C19F7 /* Node.swift */; };
-		29C286FD207087CF002C19F7 /* SwiftAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C286EA207087CF002C19F7 /* SwiftAST.swift */; };
 		29C28DE82070A5EF002C19F7 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DA32070A5EF002C19F7 /* xml.c */; };
 		29C28DE92070A5EF002C19F7 /* strikethrough.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DA42070A5EF002C19F7 /* strikethrough.c */; };
 		29C28DEA2070A5EF002C19F7 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28DA52070A5EF002C19F7 /* cmark.c */; };
@@ -93,6 +81,9 @@
 		29C28E322070A6B9002C19F7 /* checkbox.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28E302070A6B9002C19F7 /* checkbox.c */; };
 		29C28E3C2070A6F4002C19F7 /* cmark_gfm_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2911C5612070879600732441 /* cmark_gfm_swift.framework */; };
 		29C28E432070A70F002C19F7 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C28E422070A70F002C19F7 /* Tests.swift */; };
+		9B18519520C77F6B004F4706 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18519420C77F6B004F4706 /* Node.swift */; };
+		9B2A8FE62097F88F0035D35F /* hashtag.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A8FE52097F88F0035D35F /* hashtag.c */; };
+		9B2A8FE82097F8C80035D35F /* hashtag.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2A8FE72097F8C80035D35F /* hashtag.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,19 +99,7 @@
 /* Begin PBXFileReference section */
 		2911C5612070879600732441 /* cmark_gfm_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cmark_gfm_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2911C5652070879600732441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29C286D6207087CF002C19F7 /* ListElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListElement.swift; sourceTree = "<group>"; };
-		29C286D7207087CF002C19F7 /* TextElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextElement.swift; sourceTree = "<group>"; };
-		29C286D8207087CF002C19F7 /* Block+TableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Block+TableRow.swift"; sourceTree = "<group>"; };
-		29C286D9207087CF002C19F7 /* TableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
-		29C286DA207087CF002C19F7 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
-		29C286DB207087CF002C19F7 /* ASTOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASTOperations.swift; sourceTree = "<group>"; };
-		29C286E4207087CF002C19F7 /* Node+Elements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Node+Elements.swift"; sourceTree = "<group>"; };
 		29C286E5207087CF002C19F7 /* cmark-gfm-swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cmark-gfm-swift.h"; sourceTree = "<group>"; };
-		29C286E6207087CF002C19F7 /* Inline+TextElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Inline+TextElement.swift"; sourceTree = "<group>"; };
-		29C286E7207087CF002C19F7 /* Block+ListElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Block+ListElement.swift"; sourceTree = "<group>"; };
-		29C286E8207087CF002C19F7 /* Block+TextElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Block+TextElement.swift"; sourceTree = "<group>"; };
-		29C286E9207087CF002C19F7 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		29C286EA207087CF002C19F7 /* SwiftAST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAST.swift; sourceTree = "<group>"; };
 		29C28DA32070A5EF002C19F7 /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xml.c; sourceTree = "<group>"; };
 		29C28DA42070A5EF002C19F7 /* strikethrough.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strikethrough.c; sourceTree = "<group>"; };
 		29C28DA52070A5EF002C19F7 /* cmark.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmark.c; sourceTree = "<group>"; };
@@ -196,6 +175,9 @@
 		29C28E372070A6F4002C19F7 /* cmark_gfm_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cmark_gfm_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C28E3B2070A6F4002C19F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29C28E422070A70F002C19F7 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		9B18519420C77F6B004F4706 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		9B2A8FE52097F88F0035D35F /* hashtag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hashtag.c; sourceTree = "<group>"; };
+		9B2A8FE72097F8C80035D35F /* hashtag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashtag.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,21 +220,10 @@
 		29C286D5207087CF002C19F7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				29C286DB207087CF002C19F7 /* ASTOperations.swift */,
-				29C286E7207087CF002C19F7 /* Block+ListElement.swift */,
-				29C286D8207087CF002C19F7 /* Block+TableRow.swift */,
-				29C286E8207087CF002C19F7 /* Block+TextElement.swift */,
+				9B18519420C77F6B004F4706 /* Node.swift */,
 				29C28DA22070A5EF002C19F7 /* cmark_gfm */,
 				29C286E5207087CF002C19F7 /* cmark-gfm-swift.h */,
-				29C286DA207087CF002C19F7 /* Element.swift */,
 				2911C5652070879600732441 /* Info.plist */,
-				29C286E6207087CF002C19F7 /* Inline+TextElement.swift */,
-				29C286D6207087CF002C19F7 /* ListElement.swift */,
-				29C286E9207087CF002C19F7 /* Node.swift */,
-				29C286E4207087CF002C19F7 /* Node+Elements.swift */,
-				29C286EA207087CF002C19F7 /* SwiftAST.swift */,
-				29C286D9207087CF002C19F7 /* TableRow.swift */,
-				29C286D7207087CF002C19F7 /* TextElement.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -284,6 +255,7 @@
 				29C28DDC2070A5EF002C19F7 /* linked_list.c */,
 				29C28DA72070A5EF002C19F7 /* man.c */,
 				29C28DDE2070A5EF002C19F7 /* map.c */,
+				9B2A8FE52097F88F0035D35F /* hashtag.c */,
 				29C28E2F2070A6B9002C19F7 /* mention.c */,
 				29C28DE22070A5EF002C19F7 /* module.modulemap */,
 				29C28DE62070A5EF002C19F7 /* node.c */,
@@ -340,6 +312,7 @@
 				29C28DCE2070A5EF002C19F7 /* table.h */,
 				29C28DCF2070A5EF002C19F7 /* tagfilter.h */,
 				29C28DD32070A5EF002C19F7 /* utf8.h */,
+				9B2A8FE72097F8C80035D35F /* hashtag.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -388,6 +361,7 @@
 				29C28E0E2070A5EF002C19F7 /* strikethrough.h in Headers */,
 				29C28E0B2070A5EF002C19F7 /* cmark_ctype.h in Headers */,
 				29C28E042070A5EF002C19F7 /* scanners.h in Headers */,
+				9B2A8FE82097F8C80035D35F /* hashtag.h in Headers */,
 				29C28E172070A5EF002C19F7 /* utf8.h in Headers */,
 				29C28E162070A5EF002C19F7 /* iterator.h in Headers */,
 				29C28E0A2070A5EF002C19F7 /* autolink.h in Headers */,
@@ -448,6 +422,7 @@
 				TargetAttributes = {
 					2911C5602070879600732441 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					29C28E362070A6F4002C19F7 = {
@@ -499,14 +474,13 @@
 			files = (
 				29C28DF82070A5EF002C19F7 /* ext_scanners.c in Sources */,
 				29C28DE82070A5EF002C19F7 /* xml.c in Sources */,
-				29C286EB207087CF002C19F7 /* ListElement.swift in Sources */,
 				29C28E1F2070A5EF002C19F7 /* arena.c in Sources */,
 				29C28DEE2070A5EF002C19F7 /* autolink.c in Sources */,
 				29C28DF32070A5EF002C19F7 /* latex.c in Sources */,
 				29C28DEC2070A5EF002C19F7 /* man.c in Sources */,
 				29C28E1C2070A5EF002C19F7 /* references.c in Sources */,
+				9B2A8FE62097F88F0035D35F /* hashtag.c in Sources */,
 				29C28DF02070A5EF002C19F7 /* cmark_ctype.c in Sources */,
-				29C286F7207087CF002C19F7 /* Node+Elements.swift in Sources */,
 				29C28E252070A5EF002C19F7 /* scanners.c in Sources */,
 				29C28E292070A5EF002C19F7 /* node.c in Sources */,
 				29C28DF22070A5EF002C19F7 /* inlines.c in Sources */,
@@ -516,32 +490,23 @@
 				29C28E212070A5EF002C19F7 /* commonmark.c in Sources */,
 				29C28E242070A5EF002C19F7 /* plugin.c in Sources */,
 				29C28DEA2070A5EF002C19F7 /* cmark.c in Sources */,
+				9B18519520C77F6B004F4706 /* Node.swift in Sources */,
 				29C28DFA2070A5EF002C19F7 /* houdini_html_e.c in Sources */,
-				29C286EE207087CF002C19F7 /* TableRow.swift in Sources */,
 				29C28DF92070A5EF002C19F7 /* tagfilter.c in Sources */,
 				29C28E1D2070A5EF002C19F7 /* render.c in Sources */,
 				29C28E272070A5EF002C19F7 /* houdini_html_u.c in Sources */,
 				29C28DF12070A5EF002C19F7 /* table.c in Sources */,
 				29C28E232070A5EF002C19F7 /* html.c in Sources */,
 				29C28DF72070A5EF002C19F7 /* entities.inc in Sources */,
-				29C286FB207087CF002C19F7 /* Block+TextElement.swift in Sources */,
 				29C28DF62070A5EF002C19F7 /* case_fold_switch.inc in Sources */,
-				29C286F9207087CF002C19F7 /* Inline+TextElement.swift in Sources */,
-				29C286ED207087CF002C19F7 /* Block+TableRow.swift in Sources */,
 				29C28E1E2070A5EF002C19F7 /* iterator.c in Sources */,
-				29C286EC207087CF002C19F7 /* TextElement.swift in Sources */,
 				29C28E222070A5EF002C19F7 /* map.c in Sources */,
 				29C28DF52070A5EF002C19F7 /* syntax_extension.c in Sources */,
-				29C286F0207087CF002C19F7 /* ASTOperations.swift in Sources */,
 				29C28E312070A6B9002C19F7 /* mention.c in Sources */,
 				29C28DF42070A5EF002C19F7 /* houdini_href_e.c in Sources */,
-				29C286EF207087CF002C19F7 /* Element.swift in Sources */,
-				29C286FD207087CF002C19F7 /* SwiftAST.swift in Sources */,
 				29C28E1A2070A5EF002C19F7 /* plaintext.c in Sources */,
-				29C286FA207087CF002C19F7 /* Block+ListElement.swift in Sources */,
 				29C28DEF2070A5EF002C19F7 /* blocks.c in Sources */,
 				29C28E2A2070A5EF002C19F7 /* core-extensions.c in Sources */,
-				29C286FC207087CF002C19F7 /* Node.swift in Sources */,
 				29C28E322070A6B9002C19F7 /* checkbox.c in Sources */,
 				29C28E262070A5EF002C19F7 /* footnotes.c in Sources */,
 				29C28E1B2070A5EF002C19F7 /* utf8.c in Sources */,
@@ -685,10 +650,11 @@
 		2911C56A2070879600732441 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 523C4DWBTH;
+				DEVELOPMENT_TEAM = P3PBSFJA4N;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -699,6 +665,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Source/cmark_gfm";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -707,10 +674,11 @@
 		2911C56B2070879600732441 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 523C4DWBTH;
+				DEVELOPMENT_TEAM = P3PBSFJA4N;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -721,6 +689,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Source/cmark_gfm";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -729,6 +698,7 @@
 		29C28E402070A6F4002C19F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 523C4DWBTH;
 				INFOPLIST_FILE = cmark_gfm_swiftTests/Info.plist;
@@ -743,6 +713,7 @@
 		29C28E412070A6F4002C19F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 523C4DWBTH;
 				INFOPLIST_FILE = cmark_gfm_swiftTests/Info.plist;
