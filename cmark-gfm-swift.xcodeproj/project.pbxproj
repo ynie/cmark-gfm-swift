@@ -79,25 +79,13 @@
 		29C28E2E2070A6B2002C19F7 /* mention.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28E2C2070A6B2002C19F7 /* mention.h */; };
 		29C28E312070A6B9002C19F7 /* mention.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28E2F2070A6B9002C19F7 /* mention.c */; };
 		29C28E322070A6B9002C19F7 /* checkbox.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C28E302070A6B9002C19F7 /* checkbox.c */; };
-		29C28E3C2070A6F4002C19F7 /* cmark_gfm_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2911C5612070879600732441 /* cmark_gfm_swift.framework */; };
 		9B18519520C77F6B004F4706 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18519420C77F6B004F4706 /* Node.swift */; };
 		9B2A8FE62097F88F0035D35F /* hashtag.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A8FE52097F88F0035D35F /* hashtag.c */; };
 		9B2A8FE82097F8C80035D35F /* hashtag.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2A8FE72097F8C80035D35F /* hashtag.h */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		29C28E3D2070A6F4002C19F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2911C5582070879600732441 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2911C5602070879600732441;
-			remoteInfo = "cmark-gfm-swift";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		2911C5612070879600732441 /* cmark_gfm_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cmark_gfm_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2911C5652070879600732441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29C286E5207087CF002C19F7 /* cmark-gfm-swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cmark-gfm-swift.h"; sourceTree = "<group>"; };
 		29C28DA32070A5EF002C19F7 /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xml.c; sourceTree = "<group>"; };
 		29C28DA42070A5EF002C19F7 /* strikethrough.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strikethrough.c; sourceTree = "<group>"; };
@@ -171,7 +159,6 @@
 		29C28E2C2070A6B2002C19F7 /* mention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mention.h; sourceTree = "<group>"; };
 		29C28E2F2070A6B9002C19F7 /* mention.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mention.c; sourceTree = "<group>"; };
 		29C28E302070A6B9002C19F7 /* checkbox.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = checkbox.c; sourceTree = "<group>"; };
-		29C28E372070A6F4002C19F7 /* cmark_gfm_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cmark_gfm_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B18519420C77F6B004F4706 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		9B2A8FE52097F88F0035D35F /* hashtag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hashtag.c; sourceTree = "<group>"; };
 		9B2A8FE72097F8C80035D35F /* hashtag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hashtag.h; sourceTree = "<group>"; };
@@ -182,14 +169,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29C28E342070A6F4002C19F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29C28E3C2070A6F4002C19F7 /* cmark_gfm_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				2911C5612070879600732441 /* cmark_gfm_swift.framework */,
-				29C28E372070A6F4002C19F7 /* cmark_gfm_swiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,7 +197,6 @@
 				9B18519420C77F6B004F4706 /* Node.swift */,
 				29C28DA22070A5EF002C19F7 /* cmark_gfm */,
 				29C286E5207087CF002C19F7 /* cmark-gfm-swift.h */,
-				2911C5652070879600732441 /* Info.plist */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -379,24 +356,6 @@
 			productReference = 2911C5612070879600732441 /* cmark_gfm_swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		29C28E362070A6F4002C19F7 /* cmark_gfm_swiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 29C28E3F2070A6F4002C19F7 /* Build configuration list for PBXNativeTarget "cmark_gfm_swiftTests" */;
-			buildPhases = (
-				29C28E332070A6F4002C19F7 /* Sources */,
-				29C28E342070A6F4002C19F7 /* Frameworks */,
-				29C28E352070A6F4002C19F7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				29C28E3E2070A6F4002C19F7 /* PBXTargetDependency */,
-			);
-			name = cmark_gfm_swiftTests;
-			productName = cmark_gfm_swiftTests;
-			productReference = 29C28E372070A6F4002C19F7 /* cmark_gfm_swiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -410,10 +369,6 @@
 					2911C5602070879600732441 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1000;
-						ProvisioningStyle = Automatic;
-					};
-					29C28E362070A6F4002C19F7 = {
-						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -431,7 +386,6 @@
 			projectRoot = "";
 			targets = (
 				2911C5602070879600732441 /* cmark-gfm-swift */,
-				29C28E362070A6F4002C19F7 /* cmark_gfm_swiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -442,13 +396,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				29C28DEB2070A5EF002C19F7 /* scanners.re in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29C28E352070A6F4002C19F7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,22 +448,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29C28E332070A6F4002C19F7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		29C28E3E2070A6F4002C19F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2911C5602070879600732441 /* cmark-gfm-swift */;
-			targetProxy = 29C28E3D2070A6F4002C19F7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2911C5672070879600732441 /* Debug */ = {
@@ -681,36 +613,6 @@
 			};
 			name = Release;
 		};
-		29C28E402070A6F4002C19F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 523C4DWBTH;
-				INFOPLIST_FILE = cmark_gfm_swiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.whoisryannystrom.cmark-gfm-swiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		29C28E412070A6F4002C19F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 523C4DWBTH;
-				INFOPLIST_FILE = cmark_gfm_swiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.whoisryannystrom.cmark-gfm-swiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -728,15 +630,6 @@
 			buildConfigurations = (
 				2911C56A2070879600732441 /* Debug */,
 				2911C56B2070879600732441 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		29C28E3F2070A6F4002C19F7 /* Build configuration list for PBXNativeTarget "cmark_gfm_swiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				29C28E402070A6F4002C19F7 /* Debug */,
-				29C28E412070A6F4002C19F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
